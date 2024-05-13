@@ -1,0 +1,21 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+    font-family: arial;
+}
+nav{
+    height: 90px;
+    background: rgb(255, 0, 187);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
+.link{
+    color: white;
+    text-decoration: none;
+    transition: transform 0.5s;
+}
+.link:hover{
+    transform: scale(1.3);
+}
